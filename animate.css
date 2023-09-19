@@ -1,0 +1,21 @@
+.animated-heading{
+    animation-name: slideIn;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:1;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    
+}
+h1{
+    font-family: 'Mukta', sans-serif;
+}
